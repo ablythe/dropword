@@ -1,0 +1,8 @@
+<turbo-frame id="gameboard" class='dropzone'>
+  <% game.board.rows.each do |row| %>
+    <div>
+      <% row.each do |square| %>
+        <%= render  partial: 'square', object: square %>
+      <% end %>
+  <% end %>
+</turbo-frame>

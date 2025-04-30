@@ -1,0 +1,58 @@
+.dropzone {
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px auto;
+  width: 250px;
+  height: 400px;
+
+  .dropzone-item {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+
+    &.gray {
+      background-color: #f9f9f9;
+    }
+
+    &.red {
+      background-color: #980e0e;
+    }
+
+    &.yellow {
+      background-color: #e0dd0f;
+    }
+
+    &.green {
+      background-color: #0e980e;
+    }
+
+    &.blue {
+      background-color: #0e0e98;
+    }
+
+    &.purple {
+      background-color: #980e98;
+    }
+
+    &.orange {
+      background-color: #e0a10f;
+    }
+
+    &.pink {
+      background-color: #e0a1c4;
+    }
+
+    &.aqua {
+      background-color: aqua;
+    }
+
+
+  }
+
+
+}
